@@ -3,7 +3,7 @@
         <title>SEMESTER 4</title>
     </head>
     <body>
-        <img src="off.png" alt="..." />
+        <img src="off.png" alt="" id="lampu1" />
         <h1>saklar lampu on off</h1>
         <button onclick="saklar()">NYALAKAN LAMPU</button>
 
@@ -12,6 +12,8 @@
         <script>
             function saklar() {
              console.log('testing saklarnya...');
+             let lampu1 = document.getElementId("lampu1");
+             console.log(lampu1);
             }
         </script>
     </body>
